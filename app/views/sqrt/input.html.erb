@@ -1,0 +1,7 @@
+<h1>Sqrt#input</h1>
+<p>Find me in app/views/sqrt/input.html.erb</p>
+<%= form_tag("/sqrt/view", :method => "get") do %>
+	<%= label_tag("Введите число:") %>
+	<%= text_field_tag(:v) %> <br/>
+	<%= submit_tag("Вычислить корень") %>
+<% end %>
